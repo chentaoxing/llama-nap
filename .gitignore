@@ -3,3 +3,5 @@ node_modules/
 *.log.1
 llama-nap.json
 .DS_Store
+
+.mimosa/

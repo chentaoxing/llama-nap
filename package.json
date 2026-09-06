@@ -29,14 +29,14 @@
     "gguf",
     "local-llm"
   ],
-  "author": "chentaoxing-gif",
+  "author": "chentaoxing",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/chentaoxing-gif/llama-nap.git"
+    "url": "git+https://github.com/chentaoxing/llama-nap.git"
   },
   "bugs": {
-    "url": "https://github.com/chentaoxing-gif/llama-nap/issues"
+    "url": "https://github.com/chentaoxing/llama-nap/issues"
   },
-  "homepage": "https://github.com/chentaoxing-gif/llama-nap#readme"
+  "homepage": "https://github.com/chentaoxing/llama-nap#readme"
 }
