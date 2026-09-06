@@ -1,0 +1,5 @@
+node_modules/
+*.log
+*.log.1
+llama-nap.json
+.DS_Store

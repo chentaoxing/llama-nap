@@ -1,0 +1,21 @@
+{
+  "listen": "127.0.0.1",
+  "port": 13000,
+  "idleSeconds": 600,
+  "bootTimeoutSeconds": 300,
+  "apiKey": "",
+  "noWakePaths": ["/health"],
+  "backend": {
+    "command": "/opt/llama.cpp/llama-server",
+    "args": [
+      "-m", "/models/qwen3-27b.gguf",
+      "-ngl", "99",
+      "-c", "8192",
+      "--flash-attn", "on",
+      "--cache-type-k", "q4_0",
+      "--cache-type-v", "q4_0"
+    ],
+    "port": 13001,
+    "healthPath": "/health"
+  }
+}

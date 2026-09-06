@@ -1,0 +1,42 @@
+{
+  "name": "llama-nap",
+  "version": "1.0.0",
+  "description": "On-demand proxy for llama-server: wakes the model on the first request, puts it to nap when idle so VRAM returns to zero.",
+  "main": "llama-nap.js",
+  "bin": {
+    "llama-nap": "./llama-nap.js"
+  },
+  "scripts": {
+    "start": "node llama-nap.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "files": [
+    "llama-nap.js",
+    "examples/",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "llama.cpp",
+    "llama-server",
+    "openai-compatible",
+    "proxy",
+    "on-demand",
+    "vram",
+    "idle-unload",
+    "gguf",
+    "local-llm"
+  ],
+  "author": "chentaoxing-gif",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chentaoxing-gif/llama-nap.git"
+  },
+  "bugs": {
+    "url": "https://github.com/chentaoxing-gif/llama-nap/issues"
+  },
+  "homepage": "https://github.com/chentaoxing-gif/llama-nap#readme"
+}
